@@ -1,0 +1,259 @@
+body {
+    display: flex;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    position: relative;
+    width: inherit;
+}
+
+.intro-section-container .header-container,
+.intro-section-container .description-container,
+.intro-section-container .order-form-container,
+.about-container,
+.result-container,
+.intro-section-container .navigation-list {
+    padding: 0 25px;
+}
+
+.intro-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding: 15px 0 100px;
+    width: inherit;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url("../images/background/order_background.webp");
+    background-position: right;
+    background-size: cover;
+}
+
+.intro-section-container .header-logo {
+    width: 60%;
+}
+
+.intro-section-container .navigation-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c6d3c4;
+}
+
+.intro-section-container .navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    width: inherit;
+}
+
+.intro-section-container .navigation-item {
+    height: 100%;
+    cursor: pointer;
+}
+
+.intro-section-container .navigation-item a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    color: rgba(113, 93, 0, 1);
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.order-container h1 {
+    font-size: 22px;
+    text-align: center;
+    color: rgba(249, 233, 148, 1);
+}
+
+.order-container .order-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.order-container .description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 16px;
+}
+
+.order-container .description-container p {
+    line-height: 24px;
+    color: rgba(246, 247, 228, 1);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.order-container .advantages-list-container {
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(127, 179, 225, 1);
+}
+
+.order-container .advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgba(223, 228, 222, 1);
+}
+
+.order-container .advantages-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.order-container .advantages-item::before {
+    content: url("../images/order-section/paw_list_indicator.webp");
+}
+
+.order-container .img-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.order-container .order-form-container form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(253, 252, 252, 1);
+}
+
+.order-container .order-form-container form,
+.order-form-container .form-header-container {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.order-form-container form > * {
+    padding: 0 24px;
+
+}
+
+.order-form-container .form-header-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 13px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(126, 178, 225, 1);
+}
+
+.order-form-container .form-header-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-top: 20px solid rgba(126, 178, 225, 1);
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.order-form-container .time-left,
+.order-form-container .price-container .actual-price {
+    color: rgba(72, 60, 8, 1);
+}
+
+.order-form-container .time-left {
+    font-size: 33px;
+    margin-bottom: 8px;
+}
+
+.order-form-container .timer-container {
+    margin-bottom: 3px;
+    font-size: 36px;
+    color: rgba(246, 231, 145, 1);
+}
+
+.order-form-container .price-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.order-form-container .last-price {
+    width: 105px;
+    font-size: 30px;
+    color: rgba(107, 107, 107, 1);
+}
+
+.order-form-container .last-price::before {
+    content: url("../images/order-section/cross_line.webp");
+    position: absolute;
+}
+
+.order-form-container .actual-price {
+    font-size: 36px;
+}
+
+.order-form-container .form-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 41px;
+    padding-bottom: 30px;
+}
+
+.order-form-container .form-main-container > * {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.order-form-container .form-main-container input[type="text"],
+.order-form-container .form-main-container input[type="tel"] {
+    padding-left: 55px;
+    background-color: rgba(243, 239, 239, 1);
+    background-image: url("../images/order-section/paw_input.webp");
+    background-repeat: no-repeat;
+    background-position: 13px 13px;
+}
+
+.order-form-container .form-main-container input::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-form-container .form-main-container input::placeholder::before {
+    content: url("../images/order-section/paw_list_indicator.webp");
+}
+
+.order-form-container .form-main-container button {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(161, 211, 55, 1);
+
+}
+
+.order-form-container .order-date-container {
+    padding-bottom: 20px;
+}
