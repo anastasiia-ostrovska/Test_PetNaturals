@@ -39,6 +39,7 @@ li {
 
 .intro-section-container .header-logo {
     width: 60%;
+    max-width: 329px;
 }
 
 .intro-section-container .navigation-container {
@@ -84,7 +85,7 @@ li {
 .order-container .order-content-container {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 75px;
 }
 
 .order-container .description-container {
@@ -152,6 +153,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     padding-top: 23px;
     padding-bottom: 13px;
     border-radius: 10px 10px 0 0;
@@ -256,4 +258,9 @@ li {
 
 .order-form-container .order-date-container {
     padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
