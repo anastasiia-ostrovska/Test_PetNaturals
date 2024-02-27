@@ -249,6 +249,20 @@ li {
     background-position: 13px 13px;
 }
 
+.order-form-container .form-main-container input[type="text"],
+.order-form-container .form-main-container input[type="tel"],
+.order-form-container .form-main-container input[type="text"]:focus,
+.order-form-container .form-main-container input[type="tel"]:focus{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(72, 60, 8, 1);
+}
+
+.order-form-container .form-main-container input[type="text"]:focus,
+.order-form-container .form-main-container input[type="tel"]:focus{
+    outline: 2px solid rgba(126, 178, 225, 1);
+}
+
 .order-form-container .form-main-container input::placeholder {
     font-size: 16px;
     font-weight: bold;
