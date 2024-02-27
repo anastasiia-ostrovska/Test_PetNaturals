@@ -19,15 +19,15 @@ li {
 .intro-section-container .order-form-container,
 .about-container,
 .result-container,
-.intro-section-container .navigation-list {
+.intro-section-container .navigation-list,
+.about-container{
     padding: 0 25px;
 }
 
 .intro-section-container {
     display: flex;
     flex-direction: column;
-    gap: 75px;
-    padding: 15px 0 100px;
+    padding: 15px 0 75px;
     width: inherit;
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -36,6 +36,13 @@ li {
     background-position: right;
     background-size: cover;
 }
+
+.intro-section-container,
+.order-container .order-content-container,
+.about-container  .advantage-cards-container {
+    gap: 75px;
+}
+
 
 .intro-section-container .header-logo {
     width: 60%;
@@ -76,16 +83,20 @@ li {
     gap: 50px;
 }
 
-.order-container h1 {
+.order-container h1,
+.about-container h2,
+.result-container h2 {
     font-size: 22px;
     text-align: center;
+}
+
+.order-container h1 {
     color: rgba(249, 233, 148, 1);
 }
 
 .order-container .order-content-container {
     display: flex;
     flex-direction: column;
-    gap: 75px;
 }
 
 .order-container .description-container {
@@ -264,3 +275,93 @@ li {
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url("../images/background/about_background.webp");
+    background-size: contain;
+}
+
+.about-container h2 {
+    background: -webkit-linear-gradient(
+            rgba(249, 233, 148, 1),
+            rgba(83, 125, 19, 1),
+            rgba(72, 60, 8, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-container  .advantage-cards-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-container .advantage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 15px;
+    height: 439px;
+    width: 100%;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: rgba(246, 231, 145, 1);
+}
+
+.about-container .advantage-card,
+.about-container .advantage-description{
+    border-radius: 20px;
+}
+
+.about-container .advantage-card:hover {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.about-container .cat-image{
+    width: 212px;
+}
+
+.about-container .peace-image{
+    width: 164px;
+    margin: 25px 0 20px;
+}
+
+.about-container .treat-image{
+    width: 186px;
+    margin: 14px 0 13px;
+}
+
+.about-container img {
+    height: auto;
+}
+
+.about-container .advantage-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    padding: 21px 16px;
+    /*height: 218px;*/
+    height: 50%;
+    background-color: rgba(161, 211, 55, 0.4);
+}
+
+.about-container h3{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.about-container .advantage-description p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(72, 60, 8, 1);
+}
+
+
