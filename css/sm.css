@@ -41,14 +41,6 @@
         margin-bottom: 10px;
     }
 
-    .order-form-container .price-container {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-        gap: 16px;
-        width: 100%;
-    }
-
     .order-form-container .timer-container {
         margin-bottom: 25px;
     }
@@ -60,12 +52,9 @@
         width: 100%;
     }
 
-
     .order-form-container .form-main-container {
         width: 60%;
-        gap: 15px;
         padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .about-section .advantage-card {

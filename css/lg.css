@@ -1,0 +1,233 @@
+@media only screen and (min-width: 992px) {
+    .intro-section .header-container,
+    .intro-section .description-container,
+    .intro-section .order-form-container,
+    .about-section,
+    .result-section,
+    .intro-section .navigation-list,
+    .about-section, h1 {
+        padding: 0;
+    }
+
+    .intro-section,
+    .order-container .order-content-container,
+    .about-section .advantage-cards-container {
+        gap: 0;
+    }
+
+    .order-container,
+    .about-section,
+    .result-section,
+    .result-section .result-container {
+        gap: 0;
+    }
+
+    .order-container,
+    .about-section,
+    .result-section {
+        padding: 0 50px;
+    }
+
+    .about-section,
+    .result-section {
+        padding-top: 100px;
+    }
+
+    .intro-section,
+    .about-section,
+    .result-section {
+        padding-bottom: 100px;
+    }
+
+
+    .order-container h1,
+    .about-section h2,
+    .result-section h2 {
+        font-size: 52px;
+    }
+
+    .intro-section,
+    .result-section{
+        background-position: center;
+    }
+
+    .intro-section .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    .intro-section .header-logo {
+        width: 100%;
+    }
+
+    .intro-section .navigation-container {
+        position: initial;
+        display: flex;
+        padding: 41px 54px 38px 77px;
+        margin: 4px 0 7px;
+        height: 102px;
+        width: 446px;
+        background-color: initial;
+        background-image: url("../images/background/navigation_bg.webp")
+    }
+
+    .intro-section .navigation-list {
+        justify-content: space-between;
+        padding: 0;
+        height: 23px;
+    }
+
+    .order-container {
+        padding-top: 15px;
+    }
+
+    .order-container h1 {
+        margin-bottom: 15px;
+        width: 620px;
+    }
+
+    .order-container .order-content-container {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 462px;
+    }
+
+    .order-container .description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0;
+        padding-top: 34px;
+        width: 375px;
+    }
+
+    .order-container .description-container p {
+        width: 100%;
+    }
+
+    .order-container .advantages-list-container {
+        padding: 35px;
+        width: 270px;
+    }
+
+    .order-container .advantages-list {
+        gap: 0;
+        font-size: 20px;
+    }
+
+    .order-container .advantages-item {
+        gap: 17px;
+    }
+
+    .order-container .advantages-item:nth-child(1) {
+        margin-bottom: 20px;
+    }
+
+    .order-container .advantages-item:nth-child(2) {
+        margin-bottom: 17px;
+    }
+
+    .order-container .img-container {
+        position: absolute;
+        z-index: 2;
+        justify-content: center;
+        overflow: initial;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .order-container .img-container img {
+        width: 65%;
+    }
+
+    .order-container .order-form-container form {
+        flex-direction: column;
+        width: 270px;
+    }
+
+    .order-form-container .form-header-container {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .order-form-container .time-left {
+        font-size: 33px;
+        margin-bottom: 8px;
+    }
+
+    .order-form-container .timer-container {
+        margin-bottom: 3px;
+    }
+
+    .order-form-container .price-container {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 16px;
+    }
+
+    .order-form-container .form-main-container {
+        padding-top: 41px;
+        width: 100%;
+    }
+
+    .about-section {
+        background-image: url("../images/background/about_lg_bg.webp");
+        background-size: contain;
+    }
+
+    .about-section h2 {
+        margin-bottom: 61px;
+    }
+
+    .about-section .advantage-cards-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 25px;
+
+    }
+
+    .about-section .advantage-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 0 15px 15px;
+        height: 439px;
+        max-width: 305px;
+    }
+
+    .about-section .advantage-description {
+        gap: 19px;
+        padding: 21px 16px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .result-section h2 {
+        margin-bottom: 58px;
+    }
+
+    .result-section {
+        padding-bottom: 197px;
+    }
+
+    .result-section .result-container {
+        justify-content: center;
+        gap: 28px;
+        width: 100%;
+    }
+
+    .result-section article {
+        max-width: 760px;
+    }
+
+    .result-section .image-container {
+        width: 300px;
+        height: 300px;
+    }
+}

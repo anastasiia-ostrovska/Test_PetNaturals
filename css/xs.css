@@ -39,7 +39,7 @@ li {
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.3)
-    ), url("../images/background/order_background.webp");
+    ), url("../images/background/order_bg.webp");
     background-position: right;
     background-size: cover;
 }
@@ -304,7 +304,7 @@ li {
 .about-section {
     display: flex;
     flex-direction: column;
-    background-image: url("../images/background/about_background.webp");
+    background-image: url("../images/background/about_bg.webp");
     background-size: contain;
 }
 
@@ -395,7 +395,7 @@ li {
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
-    background-image: url("../images/background/result_background.webp");
+    background-image: url("../images/background/result_bg.webp");
     background-position: top;
     background-size: cover;
 }

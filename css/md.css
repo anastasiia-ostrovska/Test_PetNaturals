@@ -32,6 +32,10 @@
         padding-top: 35px;
     }
 
+    .navigation-container {
+        height: 50px;
+    }
+
     .order-container {
         align-items: center;
     }
