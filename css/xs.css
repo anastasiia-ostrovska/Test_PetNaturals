@@ -24,6 +24,13 @@ li {
     padding: 0 25px;
 }
 
+.order-container,
+.about-section,
+.result-section,
+.result-section .result-container{
+    gap: 50px;
+}
+
 .intro-section {
     display: flex;
     flex-direction: column;
@@ -81,7 +88,6 @@ li {
 .order-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
 .order-container h1,
@@ -298,7 +304,6 @@ li {
 .about-section {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     background-image: url("../images/background/about_background.webp");
     background-size: contain;
 }
@@ -389,7 +394,6 @@ li {
 .result-section {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     padding-bottom: 200px;
     background-image: url("../images/background/result_background.webp");
     background-position: top;
@@ -404,7 +408,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
 }
 
 .result-section article p{

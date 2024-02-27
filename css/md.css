@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) {
+    .intro-section .header-container,
+    .intro-section .description-container,
+    .intro-section .order-form-container,
+    .about-section,
+    .result-section,
+    .intro-section .navigation-list,
+    .about-section, h1 {
+        padding: 0 50px;
+    }
+
+    .about-section,
+    .result-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .order-container h1,
+    .about-section h2,
+    .result-section h2 {
+        font-size: 36px;
+    }
+
+    .order-container,
+    .about-section,
+    .result-section,
+    .result-section .result-container {
+        gap: 75px;
+    }
+
+    .intro-section {
+        padding-top: 35px;
+    }
+
+    .order-container {
+        align-items: center;
+    }
+
+    .order-container h1 {
+        width: 520px;
+    }
+
+    .order-container .description-container {
+        gap: 10%;
+    }
+
+    .order-container .advantages-list-container {
+        width: 45%;
+    }
+
+    .order-container .description-container p,
+    .order-container .advantages-list {
+        font-size: 22px;
+    }
+
+    .order-container .description-container p {
+        width: 45%;
+        line-height: 34px;
+    }
+
+    .about-section {
+        background-size: auto;
+    }
+
+    .about-section .advantage-cards-container > * {
+        width: 75%;
+    }
+
+    .about-section .advantage-card:nth-child(odd) {
+        align-self: end
+    }
+
+    .result-section {
+        padding-bottom: 175px;
+    }
+
+    .result-section .result-container {
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .result-section article {
+        width: 60%;
+    }
+
+    .result-section .image-container{
+        width: 35%;
+    }
+
+
+
+}
