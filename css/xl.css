@@ -1,0 +1,103 @@
+@media only screen and (min-width: 1200px) {
+    .order-container,
+    .about-section,
+    .result-section {
+        padding: 0;
+    }
+
+    .about-section,
+    .result-section {
+        padding-top: 100px;
+    }
+
+    .intro-section,
+    .about-section,
+    .result-section {
+        padding-bottom: 100px;
+    }
+
+    .intro-section .header-container {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .intro-section .header-logo {
+        margin-right: 387px
+    }
+
+    .order-container {
+        padding-top: 8px;
+    }
+
+    .order-container h1 {
+        margin-bottom: 8px;
+    }
+
+    .order-container .order-content-container {
+        width: 1142px;
+    }
+
+
+    .order-container .description-container {
+        justify-content: initial;
+        width: 439px;
+    }
+
+    .order-container .description-container p {
+        font-size: 26px;
+        margin-bottom: 60px
+    }
+
+    .order-container .advantages-list-container {
+        padding: 35px 35px 38px;
+        width: 323px;
+    }
+
+    .order-container .advantages-list {
+        font-size: 22px;
+    }
+
+    .order-container .img-container {
+        position: absolute;
+        z-index: 2;
+        justify-content: center;
+        overflow: initial;
+        top: 50px;
+        left: 52%;
+        transform: translateX(-50%);
+        width: 710px;
+    }
+
+    .order-container .img-container img {
+        width: 100%;
+    }
+
+    .about-section .advantage-cards-container {
+        justify-content: center;
+        gap: 85px;
+    }
+
+    .about-section .advantage-description {
+        height: 218px;
+        width: 100%;
+    }
+
+    .about-section .advantage-description h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .about-section .advantage-description p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .result-section {
+        padding-bottom: 197px;
+    }
+
+    .result-section article p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
