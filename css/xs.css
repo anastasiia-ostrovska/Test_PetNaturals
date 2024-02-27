@@ -20,7 +20,7 @@ li {
 .about-section,
 .result-section,
 .intro-section .navigation-list,
-.about-section {
+.about-section, h1 {
     padding: 0 25px;
 }
 
@@ -229,7 +229,7 @@ li {
     flex-direction: column;
     gap: 15px;
     padding-top: 41px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .order-form-container .form-main-container > * {
@@ -279,11 +279,15 @@ li {
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(161, 211, 55, 1);
+    cursor: pointer;
 
 }
 
 .order-form-container .order-date-container {
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 21px;
     font-size: 18px;
     font-weight: 400;
     color: rgba(68, 68, 68, 1);
