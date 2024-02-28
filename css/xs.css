@@ -62,13 +62,15 @@ li {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #c6d3c4;
+    background-color: #dae2d9;
+    box-shadow: 0 -5px 5px 0 rgb(43, 132, 162, 0.4);
 }
 
 .intro-section .navigation-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15%;
     height: 50px;
     width: inherit;
 }
