@@ -89,6 +89,10 @@ li {
     color: rgba(113, 93, 0, 1);
 }
 
+.intro-section .navigation-item a:hover {
+    color: rgba(72, 60, 8, 1);
+}
+
 .order-container {
     display: flex;
     flex-direction: column;
@@ -295,6 +299,10 @@ li {
     cursor: pointer;
 }
 
+.order-form-container .form-main-container button:hover{
+background-color: #93c22f;
+}
+
 .order-form-container .order-date-container {
     display: flex;
     justify-content: center;
@@ -319,7 +327,7 @@ li {
     background-size: contain;
 }
 
-.about-section-container .about-section{
+.about-section-container .about-section {
     display: flex;
     flex-direction: column;
     gap: 75px;
@@ -402,7 +410,7 @@ li {
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.about-section-container .advantage-card:nth-child(1) h3{
+.about-section-container .advantage-card:nth-child(1) h3 {
     margin-left: 2px;
 }
 
