@@ -69,6 +69,7 @@
         margin: 4px 0 7px;
         height: 102px;
         width: 446px;
+        box-shadow: none;
         background-color: initial;
         background-image: url("../images/background/navigation_bg.webp")
     }
