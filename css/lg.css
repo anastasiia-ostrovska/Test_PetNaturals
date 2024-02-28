@@ -230,12 +230,12 @@
 
     .result-section .result-container {
         justify-content: center;
-        gap: 28px;
         width: 100%;
+        gap: 115px;
     }
 
     .result-section article {
-        max-width: 760px;
+        max-width: 672px;
     }
 
     .result-section .image-container {
