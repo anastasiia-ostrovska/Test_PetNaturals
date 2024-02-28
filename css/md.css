@@ -2,27 +2,27 @@
     .intro-section .header-container,
     .intro-section .description-container,
     .intro-section .order-form-container,
-    .about-section,
+    .about-section-container,
     .result-section,
     .intro-section .navigation-list,
-    .about-section, h1 {
+    .about-section-container, h1 {
         padding: 0 50px;
     }
 
-    .about-section,
+    .about-section-container,
     .result-section {
         padding-top: 75px;
         padding-bottom: 75px;
     }
 
     .order-container h1,
-    .about-section h2,
+    .about-section-container h2,
     .result-section h2 {
         font-size: 36px;
     }
 
     .order-container,
-    .about-section,
+    .about-section-container,
     .result-section,
     .result-section .result-container {
         gap: 75px;
@@ -66,15 +66,15 @@
         flex-direction: row;
     }
 
-    .about-section {
+    .about-section-container {
         background-size: auto;
     }
 
-    .about-section .advantage-cards-container > * {
+    .about-section-container .advantage-cards-container > * {
         width: 75%;
     }
 
-    .about-section .advantage-card:nth-child(odd) {
+    .about-section-container .advantage-card:nth-child(odd) {
         align-self: end
     }
 
@@ -89,7 +89,7 @@
 
     .result-section article {
         width: 60%;
-        padding: 40px 5px 40px 40px;
+        padding: 40px 10px 40px 40px;
         box-shadow: inset 20px 0 0 0 rgba(212, 223, 109, 1),
         inset 0 20px 0 0 rgba(212, 223, 109, 1),
         inset 0 -20px 0 0 rgba(212, 223, 109, 1);

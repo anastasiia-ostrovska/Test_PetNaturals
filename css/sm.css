@@ -1,6 +1,6 @@
 @media only screen and (min-width: 576px) {
     .order-container h1,
-    .about-section h2,
+    .about-section-container h2,
     .result-section h2 {
         font-size: 28px;
     }
@@ -64,7 +64,7 @@
         padding-top: 20px;
     }
 
-    .about-section .advantage-card {
+    .about-section-container .advantage-card {
         flex-direction: row;
         gap: 5%;
         padding: 15px;
@@ -74,14 +74,14 @@
         background-color: rgba(246, 231, 145, 1);
     }
 
-    .about-section .img-container{
+    .about-section-container .img-container{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 45%;
     }
 
-    .about-section .advantage-description {
+    .about-section-container .advantage-description {
         width: 50%;
         padding: 21px 16px;
         height: 100%;
