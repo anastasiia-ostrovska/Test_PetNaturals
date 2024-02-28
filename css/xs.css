@@ -27,7 +27,7 @@ li {
 .order-container,
 .about-section,
 .result-section,
-.result-section .result-container{
+.result-section .result-container {
     gap: 50px;
 }
 
@@ -156,7 +156,7 @@ li {
 }
 
 .order-container .order-form-container form,
-.order-form-container .form-header-container {
+.order-form-container .form-header {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -166,29 +166,28 @@ li {
 
 }
 
-.order-form-container .form-header-container {
-    position: relative;
+.order-form-container .form-header-container{
+    width: 100%;
+    padding: 0;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.order-form-container .form-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 190px;
     padding-top: 23px;
     padding-bottom: 13px;
     border-radius: 10px 10px 0 0;
     background-color: rgba(126, 178, 225, 1);
-}
-
-.order-form-container .form-header-container::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    width: 0;
-    height: 0;
-    border-left: 135px solid transparent;
-    border-right: 135px solid transparent;
-    border-top: 20px solid rgba(126, 178, 225, 1);
-    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
+    clip-path: polygon(
+            0 0,
+            0 170px,
+            50% 100%,
+            100% 170px,
+            100% 0);
 }
 
 .order-form-container .time-left,
@@ -258,14 +257,14 @@ li {
 .order-form-container .form-main-container input[type="text"],
 .order-form-container .form-main-container input[type="tel"],
 .order-form-container .form-main-container input[type="text"]:focus,
-.order-form-container .form-main-container input[type="tel"]:focus{
+.order-form-container .form-main-container input[type="tel"]:focus {
     font-size: 16px;
     font-weight: bold;
     color: rgba(72, 60, 8, 1);
 }
 
 .order-form-container .form-main-container input[type="text"]:focus,
-.order-form-container .form-main-container input[type="tel"]:focus{
+.order-form-container .form-main-container input[type="tel"]:focus {
     outline: 2px solid rgba(126, 178, 225, 1);
 }
 
@@ -410,7 +409,7 @@ li {
     align-items: center;
 }
 
-.result-section article p{
+.result-section article p {
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;

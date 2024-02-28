@@ -45,11 +45,11 @@
     }
 
     .order-container .description-container {
-        gap: 10%;
+        gap: 5%;
     }
 
     .order-container .advantages-list-container {
-        width: 45%;
+        width: 50%;
     }
 
     .order-container .description-container p,
@@ -60,6 +60,10 @@
     .order-container .description-container p {
         width: 45%;
         line-height: 34px;
+    }
+
+    .order-form-container .price-container {
+        flex-direction: row;
     }
 
     .about-section {
