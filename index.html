@@ -43,13 +43,12 @@
                     </div>
                 </div>
                 <div id="order" class="order-form-container">
-                    <form action="">
+                    <form id="order-form" action="">
                         <div class="form-header-container">
                             <div class="form-header">
                                 <p class="time-left">TIME LEFT</p>
                                 <div class="timer-container">
-                                    <span class="hours">2</span>:<span class="minutes">00</span>:<span
-                                        class="seconds">00</span>
+                                    <span class="timer">2:00:00</span>
                                 </div>
                                 <div class="price-container">
                                     <span class="last-price">120uah</span>
@@ -59,14 +58,14 @@
                         </div>
                         <div class="form-main-container">
                             <input type="text" name="name" id="name" aria-label="Enter your name" placeholder="Name">
-                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" aria-label="
+                            <input class="tel-input" type="tel" name="phone" id="phone" aria-label="
                                    Enter your telephone number"
                                    placeholder="+38(0__)___-__-__">
                             <button type="submit">ORDER</button>
                             <div class="order-date-container">
                                 <span>Order date:</span>
-                                <span class="day">17</span>.<span class="month">11</span>.<span
-                                    class="year">2021</span>
+                                <span class="day"></span>.<span class="month"></span>.<span
+                                    class="year"></span>
                             </div>
                         </div>
                     </form>
