@@ -155,7 +155,6 @@ li {
 .order-container .img-container {
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
 .order-container .order-form-container form {
