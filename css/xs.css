@@ -239,10 +239,11 @@ li {
 }
 
 .order-form-container .form-main-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding-top: 41px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -260,7 +261,6 @@ li {
     padding-top: 16px;
     padding-bottom: 15px;
     background-color: rgba(243, 239, 239, 1);
-    background-image: url("../images/order-section/paw_input.webp");
     background-repeat: no-repeat;
     background-position: 13px 13px;
 }
@@ -275,20 +275,39 @@ li {
     color: rgba(72, 60, 8, 1);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgba(243, 239, 239, 1) inset;
+    -webkit-text-fill-color: rgba(72, 60, 8, 1);
+}
+
 .order-form-container .form-main-container input[type="text"]:focus,
 .order-form-container .form-main-container input[type="tel"]:focus {
     outline: none;
     border: 2px solid rgba(126, 178, 225, 1);
 }
 
+.order-form-container .form-main-container img.icon {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    left: 38px;
+}
+
+.order-form-container .form-main-container img.icon.input-name{
+    top: 33px
+}
+
+.order-form-container .form-main-container img.icon.input-tel{
+    top: 98px
+}
+
 .order-form-container .form-main-container input::placeholder {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: bold;
-}
-
-.order-form-container .form-main-container input::placeholder::before {
-    content: url("../images/order-section/paw_list_indicator.webp");
 }
 
 .order-form-container .form-main-container button {
@@ -301,8 +320,8 @@ li {
     cursor: pointer;
 }
 
-.order-form-container .form-main-container button:hover{
-background-color: #93c22f;
+.order-form-container .form-main-container button:hover {
+    background-color: #93c22f;
 }
 
 .order-form-container .order-date-container {
