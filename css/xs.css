@@ -269,6 +269,7 @@ li {
 .order-form-container .form-main-container input[type="tel"],
 .order-form-container .form-main-container input[type="text"]:focus,
 .order-form-container .form-main-container input[type="tel"]:focus {
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: rgba(72, 60, 8, 1);
@@ -281,6 +282,7 @@ li {
 }
 
 .order-form-container .form-main-container input::placeholder {
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
