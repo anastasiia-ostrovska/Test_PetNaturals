@@ -58,7 +58,7 @@ li {
 
 .intro-section .navigation-container {
     position: fixed;
-    z-index: 2;
+    z-index: 1000;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -277,7 +277,8 @@ li {
 
 .order-form-container .form-main-container input[type="text"]:focus,
 .order-form-container .form-main-container input[type="tel"]:focus {
-    outline: 2px solid rgba(126, 178, 225, 1);
+    outline: none;
+    border: 2px solid rgba(126, 178, 225, 1);
 }
 
 .order-form-container .form-main-container input::placeholder {
